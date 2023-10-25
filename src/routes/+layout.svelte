@@ -7,4 +7,20 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
-<slot />
+<div class="flex flex-col h-screen">
+	<slot />
+
+	<div class="mt-auto mx-auto w-fit py-2">
+		<p class="text-sm font-medium text-surface-600-300-token">
+			<a
+				class="border-surface-600-300-token"
+				href="https://github.com/LetrixZ/letrix-web"
+				target="_blank"
+			>
+				GitHub
+			</a>
+			|
+			<span> v23.10.24-01 </span>
+		</p>
+	</div>
+</div>
