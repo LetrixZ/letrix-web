@@ -20,7 +20,7 @@
 				GitHub
 			</a>
 			|
-			<span> v23.10.24-01 </span>
+			<span> v23.10.24-02 </span>
 		</p>
 	</div>
 </div>
