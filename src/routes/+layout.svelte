@@ -24,3 +24,9 @@
 		</p>
 	</div>
 </div>
+
+<style lang="postcss">
+	a {
+		@apply border-b hover:border-surface-700-200-token hover:text-surface-900-50-token active:border-primary-400-500-token active:text-primary-400-500-token transition duration-75;
+	}
+</style>
